@@ -1,10 +1,9 @@
-# 📍 Nexus Track — Plataforma de Movilidad y Carpooling Estudiantil
+# Nexus Track — Para la movilidad
 
-¡Bienvenido a **Nexus Track**! Una solución moderna, segura y eficiente para la movilidad compartida entre estudiantes universitarios. Este repositorio está configurado bajo una arquitectura monorepo que integra un frontend móvil interactivo desarrollado en **Flutter** y un backend robusto basado en **FastAPI**.
-
+Hola, esta es el avance de **Nexus**. Un sistema diseñado para facilitar y asegurar la movilidad de los estudiantes. El proyecto está dividido en dos partes principales: el frontend desarrollado en Flutter y el backend en FastAPI. A continuación se muestra la estructura del proyecto, las tecnologías utilizadas y los diagramas que representan la arquitectura y los flujos de usuario. Se utilizo una arquitectuara cliente servidor.
 ---
 
-## 📂 Estructura del Proyecto
+##  Estructura del Proyecto
 
 El proyecto está organizado en las siguientes carpetas principales:
 
@@ -23,7 +22,7 @@ Nexus-workspace/
 
 ---
 
-## ⚙️ Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 
 ### Frontend (Flutter)
 - **Dart** y **Flutter SDK** para desarrollo multiplataforma.
@@ -38,7 +37,7 @@ Nexus-workspace/
 
 ---
 
-## 📊 Arquitectura del Sistema
+##  Arquitectura del Sistema
 
 Los diagramas a continuación representan el diseño arquitectónico y de flujos de la aplicación actual. 
 
@@ -59,11 +58,11 @@ Representa la relación de datos lógica implementada para la persistencia del s
 
 ---
 
-## 🚀 Guía de Inicio Rápido
+## Guía de Inicio Rápido
 
 Sigue estos pasos para levantar el entorno de desarrollo de forma local.
 
-### 🐍 1. Levantar el Backend (FastAPI)
+###  1. Levantar el Backend (FastAPI)
 
 1. Navega a la carpeta del backend:
    ```powershell
@@ -72,9 +71,7 @@ Sigue estos pasos para levantar el entorno de desarrollo de forma local.
 2. Crea e inicia tu entorno virtual:
    ```powershell
    python -m venv venv
-   # En Windows (PowerShell):
-   .\venv\Scripts\Activate.ps1
-   ```
+ 
 3. Instala las dependencias requeridas:
    ```powershell
    pip install -r requirements.txt
@@ -87,7 +84,7 @@ Sigue estos pasos para levantar el entorno de desarrollo de forma local.
 
 ---
 
-### 📱 2. Levantar el Frontend (Flutter)
+###  2. Levantar el Frontend (Flutter)
 
 1. Navega al directorio del frontend:
    ```powershell
@@ -107,7 +104,7 @@ Sigue estos pasos para levantar el entorno de desarrollo de forma local.
 
 ---
 
-## 📝 Funcionalidades Próximas a Implementar
+##  Funcionalidades Próximas a Implementar
 - [ ] Implementación de la base de datos de perfiles reales (`/perfiles/` en FastAPI) para reemplazar los mocks del frontend.
 - [ ] Lectura de cámara física para QR Scanner en Flutter utilizando paquetes oficiales como `mobile_scanner`.
 - [ ] Implementación de filtros de rutas por origen/destino del alumno.
