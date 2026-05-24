@@ -1,0 +1,11 @@
+# Ignore python virtual environments
+venv/
+.venv/
+env/
+
+# Ignore python caches
+__pycache__/
+*.pyc
+
+# Ignore local sqlite database
+nexus_db.db

@@ -1,0 +1,32 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+db.sqlite3
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Node modules / Flutter caches at root (if any)
+node_modules/
+dist/
+build/
+.dart_tool/
+
+# Python Virtual Environments
+**/venv/
+**/.venv/
+**/env/
+
+# Python Cache files
+**/__pycache__/
+**/*.pyc
+
+# Local SQLite databases
+**/*.db
+!nexus_api/nexus_db.db  # unless you explicitly want to ignore it (recommended, but left as a pattern)
