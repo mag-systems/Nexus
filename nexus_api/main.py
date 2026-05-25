@@ -1,9 +1,11 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 
 from database import engine
 import models
-from routers.rutas import router
+from routers.rutas import router as rutas_router
+from routers.perfiles import router as perfiles_router
 
 models.Base.metadata.create_all(bind=engine)
 
@@ -21,7 +23,10 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-app.include_router(router)
+app.mount("/uploads", StaticFiles(directory="uploads"), name="uploads")
+
+app.include_router(rutas_router)
+app.include_router(perfiles_router)
 
 
 if __name__ == "__main__":

@@ -21,7 +21,7 @@ class _AlumnoDashboardState extends State<AlumnoDashboard> {
 
     // Simula escaneo de ID '1' y peticion HTTP
     try {
-      final response = await http.get(Uri.parse('http://127.0.0.1:8000/perfiles/1'));
+      final response = await http.get(Uri.parse('http://192.168.100.6:8000/perfiles/1'));
 
       if (response.statusCode == 200) {
         final data = json.decode(response.body);

@@ -14,7 +14,7 @@ class NexusTrackApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Nexus Track',
-      theme: NexusTheme.dark,
+      theme: NexusTheme.light,
       home: const InicioScreen(),
     );
   }

@@ -80,7 +80,7 @@ Sigue estos pasos para levantar el entorno de desarrollo de forma local.
    ```powershell
    python main.py
    ```
-   *El servidor estará escuchando en `http://127.0.0.1:8000`. Puedes explorar la documentación interactiva en `http://127.0.0.1:8000/docs`.*
+   *El servidor estará escuchando en `http://192.168.100.6:8000`. Puedes explorar la documentación interactiva en `http://192.168.100.6:8000/docs`.*
 
 ---
 
